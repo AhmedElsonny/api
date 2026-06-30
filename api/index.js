@@ -2,7 +2,7 @@ const ImageKit = require("imagekit");
 
 module.exports = (req, res) => {
   // ✅ CORS HEADERS (IMPORTANT)
-  res.setHeader("Access-Control-Allow-Origin", "https://salahly-online.web.app");
+  res.setHeader("Access-Control-Allow-Origin", "https://salahly-online.web.app" , 'http://localhost:3000', 'http://localhost:5173');
   res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
